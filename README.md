@@ -69,6 +69,10 @@ The Power BI dashboard highlights:
 * Category-wise and segment-level analysis
 * Interactive filters for deeper exploration
 
+<img width="922" height="495" alt="Screenshot (612)" src="https://github.com/user-attachments/assets/13fa7550-e0c6-496f-a2ac-bd35cdaeac97" />
+
+
+
 ## Results
 
 * Identified key trends and patterns in the data
