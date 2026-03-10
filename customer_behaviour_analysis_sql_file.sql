@@ -97,7 +97,6 @@ select age_group ,
 sum(purchase_amount) as total_revenue
 from customer
 group by age_group
-
 order by total_revenue desc;
 
 --Q11. Which customers generate the highest revenue for the business?
@@ -111,7 +110,7 @@ ROUND(AVG(purchase_amount),2) AS avg_order_value
 FROM customer
 GROUP BY customer_id
 ),
-
+  
 customer_segments AS (
 SELECT *,
 CASE
@@ -132,8 +131,7 @@ ORDER BY revenue_generated DESC;
 
 --Q12. What percentage of customers are repeat buyers?
 
-SELECT 
-CASE 
+SELECT CASE 
 WHEN previous_purchases > 1 THEN 'Repeat Customer'
 ELSE 'New Customer'
 END AS customer_type,
@@ -141,3 +139,4 @@ COUNT(*) AS total_customers,
 ROUND(COUNT(*) * 100.0 / SUM(COUNT(*)) OVER(),2) AS percentage
 FROM customer
 GROUP BY customer_type;
+
