@@ -69,11 +69,18 @@ The Power BI dashboard highlights:
 * Category-wise and segment-level analysis
 * Interactive filters for deeper exploration
 
-## Results & Insights
+## Results
 
 * Identified key trends and patterns in the data
 * Highlighted actionable insights relevant to business decision-making
 * Demonstrated how data can be transformed into meaningful visual stories
+
+## Insights
+
+• Clothing generates the highest revenue among all categories.
+• Most purchases are made by adults aged 25–40.
+• Subscribers spend 18% more on average than non-subscribers.
+• Express shipping customers tend to have higher purchase values.
 
 ## How to Run the Project
 
