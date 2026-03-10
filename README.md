@@ -77,10 +77,10 @@ The Power BI dashboard highlights:
 
 ## Insights
 
-• Clothing generates the highest revenue among all categories.
-• Most purchases are made by adults aged 25–40.
-• Subscribers spend 18% more on average than non-subscribers.
-• Express shipping customers tend to have higher purchase values.
+* Clothing generates the highest revenue among all categories.
+* Most purchases are made by adults aged 25–40.
+* Subscribers spend 18% more on average than non-subscribers.
+* Express shipping customers tend to have higher purchase values.
 
 ## How to Run the Project
 
